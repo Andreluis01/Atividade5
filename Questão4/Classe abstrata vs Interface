@@ -1,0 +1,13 @@
+*Costuma-se dizer que uma interface é uma classe 100% abstrata.
+*Uma interface não pode ser instanciada, mas uma classe pode implementar diversas interafces;
+*É útil utilizar uma interface quando, por exemplo, em situações onde o uso de classes com métodos de mesma
+assinatura, sejam implementados de forma diferente. Ex: Sistema de cadastramento;
+
+*Uma classe abstrata não pode ser instanciada;
+*Possui métodos abstratos e/ou métodos já implementados;
+*É útil quando é preciso definir o corpo dos métodos e se assim precisar, criar métodos abstratos para serem
+implementados pela classe que à herdará. Ex: Sistema de pagamento;
+
+No geral, a diferença entre classe abstrata x interface, pode ser notada, utilizando um carro como exemplo:
+Em um carro comum, funcionalidades como ligar/desligar são métodos padronizados, no entanto a funcionalide de
+acelerar pode variar entre diferentes modelos, como um carro elétrico ou híbrido;
